@@ -1,0 +1,93 @@
+#prgmOut{
+    padding: auto;
+    margin:auto;
+    border:1px solid grey;
+    overflow:auto;
+    margin-top: 5%;
+    background-image: url(img/sbg.png);
+}
+
+body{
+    background-image: url(img/bg.png);
+}
+
+#titre{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+#jeu {
+    margin: auto;
+    max-width: 400px;
+    position: relative;
+    width: calc(100% - 60px);
+    padding: 60px 0 60px 60px;
+    transform: translateX(-30px);
+}
+
+    
+#stittle {
+    font-family: 'Chicle', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+    
+#regle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+    
+
+#bnt{
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family:'Russo One', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    background: #d9344a;
+    text-decoration: none;
+    padding: 5px 10px;
+} 
+
+#bnt:hover {
+    background: #eb7b91;
+    background-image: -webkit-linear-gradient(top, #eb7b91, #ed324b);
+    background-image: -moz-linear-gradient(top, #eb7b91, #ed324b);
+    background-image: -ms-linear-gradient(top, #eb7b91, #ed324b);
+    background-image: -o-linear-gradient(top, #eb7b91, #ed324b);
+    background-image: linear-gradient(to bottom, #eb7b91, #ed324b);
+    text-decoration: none;
+    cursor:pointer;
+}
+
+
+#input{	
+	background:none;
+	outline:none;
+	resize:none;
+	font-family: 'Mina', sans-serif;
+    border:2px  solid #a0a8a4;
+    margin-right: 5%
+}
+
+#input:focus{
+    background-color:  #be6d78;
+}
+
+#result{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 8%;
+    background-color: #f39494;
+}
+
+#form{
+    
+}
+
