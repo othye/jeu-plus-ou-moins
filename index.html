@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width="device-width", initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/x-icon" href="img/ijeu.ico">
     <title>Jeu plus ou moins</title>
 
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Chicle|Russo+One" rel="stylesheet">
@@ -12,43 +14,36 @@
 </head>
 
 <body>
+
     <section  class="container ">
         
-
         <h1 id="titre" class="text-center"> Jeu plus ou moins </h1>
 
         <div id="prgmOut" class="row" >
 
-        <div class="col-6 text-center" id="img">
-            <img id="nbP" src="img/nb.png">
-        </div>
+            <div class="col-6" id="img">
+                <img  class=" text-center" src="img/nb.png" alt="Photo jeu">
+            </div>
 
-        <article id="jeu" class="col-6">  
-            <h4 id="stittle">Règles de jeu:</h4>
-            <p id="regle"> Le but du jeu est de deviner le nombre que l'ordinateur a choisi aléatoirement entre 
-                1 et 100 grâce aux indications "plus" ou "moins". En fin de partie, 
-                vous retrouverez votre score qui correspond au nombre d'essais, moins vous en avez, plus vous êtes doués ! Bon jeu.
-            </p>
-            <form  class="d-flex align-items-center text-center" onSubmit="verifs(event);">
-                <input name="nbr" type="text" id="input">
-                <input type="button" value="Jouer" id="bnt">
-            </form>
-            <p id="result"></p>
-                    
-        </article>  
+            <article id="jeu" class="col-6">  
+                <h4 id="stittle">Règles de jeu:</h4>
+                <p id="regle"> Le but du jeu est de deviner le nombre que l'ordinateur a choisi aléatoirement entre 
+                    1 et 100 grâce aux indications "plus" ou "moins". En fin de partie, 
+                    vous retrouverez votre score qui correspond au nombre d'essais, moins vous en avez, plus vous êtes doués ! Bon jeu.
+                </p>
 
-        
+                <form  class="d-flex align-items-center text-center" onSubmit="verifs(event);">
+                    <input name="nbr" type="text" id="input">
+                    <input type="button" value="Jouer" id="bnt">
+                </form>
+                <p id="result"></p>
+                        
+            </article>  
+
         </div>
          
-        
-        
-        
-
-    
-
 
     </section>
-
 
     <script src="main.js"></script>
 </body>

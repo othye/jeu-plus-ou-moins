@@ -1,3 +1,9 @@
+body{
+    background-image: url(img/bg.png);
+    margin: auto;
+    padding: auto;
+}
+
 #prgmOut{
     padding: auto;
     margin:auto;
@@ -7,14 +13,14 @@
     background-image: url(img/sbg.png);
 }
 
-body{
-    background-image: url(img/bg.png);
-}
 
 #titre{
     font-family: 'Russo One', sans-serif;
     font-size: 30px;
     margin-top: 2%;
+}
+#nbP{
+    margin-top: 10%;
 }
 
 #jeu {

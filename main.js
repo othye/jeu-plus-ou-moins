@@ -31,9 +31,8 @@ var input = document.getElementById("input");
 var result= document.getElementById("result");
 var cmpt = 0;
 
-console.log(numbercacher);
+//console.log(numbercacher);
 //console.log(Math.random());
-
 
 function verifs(event) {
     event.preventDefault();
